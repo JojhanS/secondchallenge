@@ -61,11 +61,14 @@ ul {
    .previousWork{
     background-color: lightpink;
     display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
    }
 
    .previousWork img{
     float: right;
-
+    margin: 5px;
+    justify-content: space-evenly;
    }
 
 /* COntact form */
